@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Estoniz HMS — Hospital Management System</title>
+<meta name="description" content="A unified hospital management platform designed to connect clinical, administrative, financial, and operational workflows in one digital environment.">
+<link rel="stylesheet" href="css/hms-style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap nav">
+    <a href="#top" class="logo"><span class="logo-mark"></span>ESTONIZ HMS<small>by Estoniz</small></a>
+    <nav class="nav-links" id="navLinks">
+      <a href="#top">Overview</a>
+      <a href="#modules">Modules</a>
+      <a href="#showcase">Dashboard</a>
+      <a href="#deployment">Deployment</a>
+      <a href="#faq">FAQ</a>
+      <a href="../index.html">Estoniz.com ↗</a>
+      <a href="#demo" class="nav-cta">Book a Demo</a>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- ============ HERO ============ -->
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <div class="hero-eyebrow">Estoniz Hospital Management System</div>
+        <h1>A <em>Smarter</em> Way to Manage Hospital Operations.</h1>
+        <p class="sub">A unified hospital management platform designed to connect clinical, administrative, financial, and operational workflows in one digital environment.</p>
+        <div class="hero-actions">
+          <a href="#demo" class="btn btn-primary">Book a Demo</a>
+          <a href="#modules" class="btn btn-ghost">Explore Modules</a>
+        </div>
+        <div class="hero-tags">
+          <span class="hero-tag">Developed by Estoniz</span>
+          <span class="hero-tag">Currently operational at a hospital</span>
+        </div>
+      </div>
+      <div class="dash-panel reveal">
+        <div class="dash-topbar">
+          <div class="dots"><span></span><span></span><span></span></div>
+          <div class="title">HMS · OPERATIONS OVERVIEW</div>
+        </div>
+        <div class="dash-grid">
+          <div class="dash-card">
+            <div class="label">Bed Occupancy</div>
+            <div class="value good">78%</div>
+            <div class="bar"><span style="width:78%"></span></div>
+          </div>
+          <div class="dash-card">
+            <div class="label">Active Patients</div>
+            <div class="value">142</div>
+            <div class="bar"><span style="width:60%"></span></div>
+          </div>
+          <div class="dash-card">
+            <div class="label">Pending Lab Results</div>
+            <div class="value warn">9</div>
+            <div class="bar"><span style="width:30%"></span></div>
+          </div>
+          <div class="dash-card">
+            <div class="label">OT Schedule Today</div>
+            <div class="value">6</div>
+            <div class="bar"><span style="width:45%"></span></div>
+          </div>
+        </div>
+        <div class="dash-wide">
+          <span class="label">Patient Flow — Last 12 Hours</span>
+          <div class="pulse-row">
+            <span style="height:40%"></span><span style="height:65%"></span><span style="height:35%"></span>
+            <span style="height:80%"></span><span style="height:50%"></span><span style="height:90%"></span>
+            <span style="height:45%"></span><span style="height:70%"></span><span style="height:55%"></span>
+            <span style="height:85%"></span>
+          </div>
+        </div>
+        <div class="dash-foot">
+          <span class="live"><span class="d"></span>Live operational snapshot</span>
+          <span>Illustrative dashboard view</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PRODUCT OVERVIEW ============ -->
+  <section class="section">
+    <div class="wrap overview-grid">
+      <div class="reveal">
+        <div class="eyebrow">Product Overview</div>
+        <h2>Built for the Way a Hospital Actually Runs.</h2>
+        <ul class="overview-list">
+          <li><span class="mark">—</span>Connects clinical and administrative teams</li>
+          <li><span class="mark">—</span>Brings patient records into one place</li>
+          <li><span class="mark">—</span>Structures billing and financial workflows</li>
+          <li><span class="mark">—</span>Supports pharmacy and inventory tracking</li>
+          <li><span class="mark">—</span>Gives departments real-time visibility</li>
+        </ul>
+      </div>
+      <div class="overview-copy reveal">
+        <p>The Estoniz Hospital Management System was developed to bring the many moving parts of a hospital — patients, doctors, nurses, pharmacy, laboratory, billing, and administration — into a single, structured digital environment.</p>
+        <p>Rather than treating a hospital as a single generic workflow, HMS is organized around how different departments actually operate day to day, while still keeping data connected across the entire facility.</p>
+        <p>The result is a platform where <strong>a patient's journey — from registration to discharge</strong> — is tracked consistently, and where staff across departments work from the same accurate information instead of disconnected paper records or isolated spreadsheets.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ HOSPITAL WORKFLOW ============ -->
+  <section class="section blush">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <div class="eyebrow">Hospital Workflow</div>
+        <h2>One Platform Across the Patient Journey</h2>
+        <p class="lede">HMS is structured around the real sequence a patient and their care team move through inside a hospital.</p>
+      </div>
+      <div class="workflow-track reveal">
+        <div class="workflow-step"><div class="wf-icon">01</div><h4>Registration</h4><p>Patient intake and records</p></div>
+        <div class="workflow-step"><div class="wf-icon">02</div><h4>Consultation</h4><p>Doctor visits and diagnosis</p></div>
+        <div class="workflow-step"><div class="wf-icon">03</div><h4>Diagnostics</h4><p>Lab and radiology orders</p></div>
+        <div class="workflow-step"><div class="wf-icon">04</div><h4>Treatment</h4><p>Admission, nursing, pharmacy</p></div>
+        <div class="workflow-step"><div class="wf-icon">05</div><h4>Billing</h4><p>Charges and settlement</p></div>
+        <div class="workflow-step"><div class="wf-icon">06</div><h4>Discharge</h4><p>Records closed and archived</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ MODULES ============ -->
+  <section class="section" id="modules">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <div class="eyebrow">Modules</div>
+        <h2>Every Department, One System</h2>
+        <p class="lede">HMS covers the operational areas a hospital depends on every day, each designed as a dedicated module within the same connected platform.</p>
+      </div>
+      <div class="module-grid reveal">
+        <div class="module-card"><span class="m-eyebrow">Clinical</span><h3>Patient Management</h3><p>Centralized patient records, registration, and history accessible across departments.</p></div>
+        <div class="module-card"><span class="m-eyebrow">Clinical</span><h3>Appointments</h3><p>Scheduling for outpatient visits, consultations, and follow-ups.</p></div>
+        <div class="module-card"><span class="m-eyebrow">Clinical</span><h3>Telemedicine</h3><p>Remote consultations that keep virtual care connected to the patient record.</p></div>
+        <div class="module-card"><span class="m-eyebrow">Clinical</span><h3>EMR</h3><p>Structured electronic medical records tied to each patient's ongoing care.</p></div>
+        <div class="module-card"><span class="m-eyebrow">Clinical</span><h3>Doctor Workflows</h3><p>Consultation notes, orders, and case tracking built around clinical routines.</p></div>
+        <div class="module-card"><span class="m-eyebrow">Clinical</span><h3>Nursing</h3><p>Ward-level task tracking, vitals recording, and shift handover support.</p></div>
+        <div class="module-card"><span class="m-eyebrow">Pharmacy</span><h3>Pharmacy</h3><p>Prescription management connected directly to patient records.</p></div>
+        <div class="module-card"><span class="m-eyebrow">Pharmacy</span><h3>Inventory</h3><p>Stock tracking for medicines and hospital supplies.</p></div>
+        <div class="module-card"><span class="m-eyebrow">Diagnostics</span><h3>Laboratory</h3><p>Test orders, sample tracking, and result reporting.</p></div>
+        <div class="module-card"><span class="m-eyebrow">Diagnostics</span><h3>Radiology</h3><p>Imaging orders and report management.</p></div>
+        <div class="module-card"><span class="m-eyebrow">Finance</span><h3>Billing</h3><p>Structured, department-linked billing and invoicing.</p></div>
+        <div class="module-card"><span class="m-eyebrow">Operations</span><h3>Emergency</h3><p>Rapid intake and coordination for emergency cases.</p></div>
+        <div class="module-card"><span class="m-eyebrow">Operations</span><h3>Bed Management</h3><p>Real-time bed availability across wards and departments.</p></div>
+        <div class="module-card"><span class="m-eyebrow">Critical Care</span><h3>ICU</h3><p>Focused tracking for critical care patients and monitoring.</p></div>
+        <div class="module-card"><span class="m-eyebrow">Critical Care</span><h3>OT</h3><p>Operation theatre scheduling and case coordination.</p></div>
+        <div class="module-card"><span class="m-eyebrow">Insight</span><h3>Analytics</h3><p>Reporting across departments to support operational decisions.</p></div>
+        <div class="module-card"><span class="m-eyebrow">Insight</span><h3>Reports</h3><p>Structured, exportable reports for administration and compliance.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ DASHBOARD SHOWCASE ============ -->
+  <section class="section blush" id="showcase">
+    <div class="wrap showcase-wrap">
+      <div class="section-head reveal">
+        <div class="eyebrow">Dashboard Showcase</div>
+        <h2>Visibility Across the Entire Hospital</h2>
+        <p class="lede">Administrators and department heads get a consistent, real-time view of what's happening across the facility.</p>
+      </div>
+      <div class="metric-row reveal">
+        <div class="metric-card"><div class="m-label">Departments Connected</div><div class="m-value">12+</div></div>
+        <div class="metric-card"><div class="m-label">Patient Record Access</div><div class="m-value">Centralized</div></div>
+        <div class="metric-card"><div class="m-label">Bed Visibility</div><div class="m-value">Real-Time</div></div>
+        <div class="metric-card"><div class="m-label">Billing Workflow</div><div class="m-value">Structured</div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ DEEP MODULE SECTIONS ============ -->
+  <section class="section">
+    <div class="wrap">
+
+      <div class="deep-module reveal">
+        <div>
+          <div class="eyebrow">Patient Management</div>
+          <h3>Every Patient, One Consistent Record</h3>
+          <p>From first registration to discharge, each patient's information stays connected and accessible to every relevant department.</p>
+          <ul class="deep-features">
+            <li>Centralized registration and demographic records</li>
+            <li>Visit and admission history in one view</li>
+            <li>Access shared securely across departments</li>
+          </ul>
+        </div>
+        <div class="deep-visual">
+          <div class="dv-title">Recent Registrations</div>
+          <div class="dv-list">
+            <div class="dv-row"><span class="dv-name">OPD Registration</span><span class="dv-status ok">Active</span></div>
+            <div class="dv-row"><span class="dv-name">IPD Admission</span><span class="dv-status pending">In Progress</span></div>
+            <div class="dv-row"><span class="dv-name">Follow-up Visit</span><span class="dv-status ok">Active</span></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="deep-module reverse reveal">
+        <div>
+          <div class="eyebrow">Doctor &amp; EMR</div>
+          <h3>Clinical Records That Follow the Patient</h3>
+          <p>Doctors work from a structured electronic medical record that carries consultation notes, orders, and history forward through the patient's care.</p>
+          <ul class="deep-features">
+            <li>Consultation notes tied to each visit</li>
+            <li>Diagnostic and prescription orders in-context</li>
+            <li>History available at the point of care</li>
+          </ul>
+        </div>
+        <div class="deep-visual">
+          <div class="dv-title">EMR — Active Case</div>
+          <div class="dv-list">
+            <div class="dv-row"><span class="dv-name">Consultation Notes</span><span class="dv-status ok">Updated</span></div>
+            <div class="dv-row"><span class="dv-name">Lab Order</span><span class="dv-status pending">Awaiting Result</span></div>
+            <div class="dv-row"><span class="dv-name">Prescription</span><span class="dv-status ok">Issued</span></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="deep-module reveal">
+        <div>
+          <div class="eyebrow">Pharmacy &amp; Inventory</div>
+          <h3>Prescriptions Connected to Stock</h3>
+          <p>Pharmacy operations are linked directly to patient prescriptions and hospital inventory, reducing manual reconciliation.</p>
+          <ul class="deep-features">
+            <li>Prescription-to-dispense tracking</li>
+            <li>Stock level visibility for medicines and supplies</li>
+            <li>Low-stock indicators for timely reordering</li>
+          </ul>
+        </div>
+        <div class="deep-visual">
+          <div class="dv-title">Inventory Snapshot</div>
+          <div class="dv-list">
+            <div class="dv-row"><span class="dv-name">Antibiotics — Batch A</span><span class="dv-status ok">In Stock</span></div>
+            <div class="dv-row"><span class="dv-name">IV Fluids</span><span class="dv-status alert">Low Stock</span></div>
+            <div class="dv-row"><span class="dv-name">Surgical Supplies</span><span class="dv-status ok">In Stock</span></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="deep-module reverse reveal">
+        <div>
+          <div class="eyebrow">Laboratory &amp; Radiology</div>
+          <h3>From Order to Result, Tracked</h3>
+          <p>Diagnostic orders move through a structured workflow, from sample collection to reporting, without getting lost between departments.</p>
+          <ul class="deep-features">
+            <li>Test and imaging order tracking</li>
+            <li>Result status visible to the ordering doctor</li>
+            <li>Reports linked directly to the patient record</li>
+          </ul>
+        </div>
+        <div class="deep-visual">
+          <div class="dv-title">Diagnostics Queue</div>
+          <div class="dv-list">
+            <div class="dv-row"><span class="dv-name">Blood Panel</span><span class="dv-status pending">Processing</span></div>
+            <div class="dv-row"><span class="dv-name">X-Ray — Chest</span><span class="dv-status ok">Reported</span></div>
+            <div class="dv-row"><span class="dv-name">MRI Scan</span><span class="dv-status pending">Scheduled</span></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="deep-module reveal">
+        <div>
+          <div class="eyebrow">Billing</div>
+          <h3>Charges Structured Around Care, Not Guesswork</h3>
+          <p>Billing draws directly from clinical and service activity, helping keep charges accurate and organized by department.</p>
+          <ul class="deep-features">
+            <li>Charges linked to consultations, tests, and stay</li>
+            <li>Structured invoicing across departments</li>
+            <li>Clear settlement status per patient</li>
+          </ul>
+        </div>
+        <div class="deep-visual">
+          <div class="dv-title">Billing Overview</div>
+          <div class="dv-list">
+            <div class="dv-row"><span class="dv-name">Consultation Charges</span><span class="dv-status ok">Settled</span></div>
+            <div class="dv-row"><span class="dv-name">Lab Charges</span><span class="dv-status pending">Pending</span></div>
+            <div class="dv-row"><span class="dv-name">Room Charges</span><span class="dv-status ok">Settled</span></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="deep-module reverse reveal">
+        <div>
+          <div class="eyebrow">Emergency</div>
+          <h3>Built for Rapid, Coordinated Response</h3>
+          <p>Emergency intake is designed to move quickly, connecting the front desk, doctors, and available beds without delay.</p>
+          <ul class="deep-features">
+            <li>Fast-track registration for emergency cases</li>
+            <li>Immediate visibility into available beds and staff</li>
+            <li>Direct handoff into treatment and admission</li>
+          </ul>
+        </div>
+        <div class="deep-visual">
+          <div class="dv-title">Emergency Intake</div>
+          <div class="dv-list">
+            <div class="dv-row"><span class="dv-name">Case #E-102</span><span class="dv-status alert">Critical</span></div>
+            <div class="dv-row"><span class="dv-name">Case #E-098</span><span class="dv-status pending">Under Observation</span></div>
+            <div class="dv-row"><span class="dv-name">Case #E-091</span><span class="dv-status ok">Stabilized</span></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="deep-module reveal">
+        <div>
+          <div class="eyebrow">Beds / ICU / OT</div>
+          <h3>Real-Time Visibility Into Capacity</h3>
+          <p>Bed, ICU, and operation theatre availability is tracked in real time, helping departments coordinate admissions and scheduling.</p>
+          <ul class="deep-features">
+            <li>Live bed occupancy across wards</li>
+            <li>ICU monitoring status for critical patients</li>
+            <li>OT scheduling to avoid conflicts</li>
+          </ul>
+        </div>
+        <div class="deep-visual">
+          <div class="dv-title">Capacity Overview</div>
+          <div class="dv-list">
+            <div class="dv-row"><span class="dv-name">General Ward</span><span class="dv-status ok">12 Available</span></div>
+            <div class="dv-row"><span class="dv-name">ICU</span><span class="dv-status alert">2 Available</span></div>
+            <div class="dv-row"><span class="dv-name">OT Slots Today</span><span class="dv-status pending">3 Remaining</span></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="deep-module reverse reveal">
+        <div>
+          <div class="eyebrow">Reports &amp; Analytics</div>
+          <h3>Operational Data Made Usable</h3>
+          <p>Administrators can view structured reports across departments to understand how the hospital is actually operating.</p>
+          <ul class="deep-features">
+            <li>Cross-department reporting</li>
+            <li>Exportable records for administration</li>
+            <li>Trends visible without manual compilation</li>
+          </ul>
+        </div>
+        <div class="deep-visual">
+          <div class="dv-title">Reporting Center</div>
+          <div class="dv-list">
+            <div class="dv-row"><span class="dv-name">Monthly Admissions</span><span class="dv-status ok">Generated</span></div>
+            <div class="dv-row"><span class="dv-name">Department Utilization</span><span class="dv-status ok">Generated</span></div>
+            <div class="dv-row"><span class="dv-name">Billing Summary</span><span class="dv-status pending">Processing</span></div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ============ REAL-WORLD DEPLOYMENT ============ -->
+  <section class="section blush" id="deployment">
+    <div class="wrap">
+      <div class="deploy-box reveal">
+        <div>
+          <div class="deploy-badge"><span class="d"></span>Live Deployment</div>
+          <h3>Built for Real Hospital Operations</h3>
+          <p>The Estoniz Hospital Management System is currently operational at a hospital, providing practical, real-world experience in designing software around real healthcare workflows.</p>
+        </div>
+        <div>
+          <p>This deployment shapes how HMS continues to evolve — every module reflects lessons learned from an actual clinical and administrative environment, not assumptions about how a hospital might work.</p>
+          <div class="deploy-note">No claims are made about the number of hospitals, doctors, or patients using HMS beyond this single, real, operational deployment.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ WHY THIS HMS ============ -->
+  <section class="section">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <div class="eyebrow">Why This HMS</div>
+        <h2>Designed Around Real Clinical Workflows</h2>
+      </div>
+      <div class="why-grid reveal">
+        <div class="why-card"><span class="w-num">01</span><h4>Built on a Real Deployment</h4><p>Developed and refined against an actual hospital's day-to-day operations.</p></div>
+        <div class="why-card"><span class="w-num">02</span><h4>Connected, Not Siloed</h4><p>Departments share one consistent source of patient and operational data.</p></div>
+        <div class="why-card"><span class="w-num">03</span><h4>Designed for Staff, Not Just Admins</h4><p>Interfaces are built around how doctors, nurses, and staff actually work.</p></div>
+        <div class="why-card"><span class="w-num">04</span><h4>Structured Financial Workflows</h4><p>Billing stays tied to actual clinical and service activity.</p></div>
+        <div class="why-card"><span class="w-num">05</span><h4>Operational Visibility</h4><p>Administrators can see capacity, activity, and reporting in real time.</p></div>
+        <div class="why-card"><span class="w-num">06</span><h4>Backed by Estoniz</h4><p>Supported by a software company focused on practical, long-term systems.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ BOOK A DEMO ============ -->
+  <section class="section blush" id="demo">
+    <div class="wrap demo-layout">
+      <div class="demo-info reveal">
+        <div class="eyebrow">Book a Demo</div>
+        <h2>See HMS in Your Own Context.</h2>
+        <p>Tell us about your hospital and the team will walk you through how HMS fits your departments and workflows.</p>
+        <div class="demo-stats">
+          <div><b>Modules Covered</b><span>17 operational areas</span></div>
+          <div><b>Deployment Status</b><span>Currently live at a hospital</span></div>
+          <div><b>Developed By</b><span>Estoniz</span></div>
+        </div>
+      </div>
+      <form class="reveal" onsubmit="return false;">
+        <div class="form-grid">
+          <div class="field"><label for="dname">Name</label><input type="text" id="dname" placeholder="Your full name"></div>
+          <div class="field"><label for="hname">Hospital Name</label><input type="text" id="hname" placeholder="Hospital / facility name"></div>
+          <div class="field"><label for="designation">Designation</label><input type="text" id="designation" placeholder="Your role"></div>
+          <div class="field"><label for="demail">Email</label><input type="email" id="demail" placeholder="you@hospital.com"></div>
+          <div class="field"><label for="dphone">Phone</label><input type="tel" id="dphone" placeholder="Phone number"></div>
+          <div class="field"><label for="city">City</label><input type="text" id="city" placeholder="City"></div>
+          <div class="field"><label for="beds">Hospital Bed Capacity</label><input type="text" id="beds" placeholder="e.g. 50–100 beds"></div>
+          <div class="field">
+            <label for="modules">Interested Modules</label>
+            <select id="modules">
+              <option>Patient Management</option>
+              <option>Telemedicine</option>
+              <option>EMR &amp; Doctor Workflows</option>
+              <option>Pharmacy &amp; Inventory</option>
+              <option>Laboratory &amp; Radiology</option>
+              <option>Billing</option>
+              <option>Emergency &amp; Beds</option>
+              <option>Reports &amp; Analytics</option>
+              <option>All Modules</option>
+            </select>
+          </div>
+          <div class="field full"><label for="dmessage">Message</label><textarea id="dmessage" placeholder="Tell us about your hospital's requirements..."></textarea></div>
+          <div class="form-actions">
+            <button type="submit" class="btn btn-primary">Request a Demo</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- ============ FAQ ============ -->
+  <section class="section" id="faq">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <div class="eyebrow">FAQ</div>
+        <h2>Common Questions About HMS</h2>
+      </div>
+      <div class="faq-list reveal">
+        <details class="faq-item" open>
+          <summary>What is the Estoniz Hospital Management System?</summary>
+          <p>HMS is a comprehensive hospital management platform developed by Estoniz that connects clinical, administrative, financial, and operational workflows in one digital environment.</p>
+        </details>
+        <details class="faq-item">
+          <summary>Is HMS currently deployed at a hospital?</summary>
+          <p>Yes. HMS is currently operational at a hospital, supporting real day-to-day clinical and administrative workflows.</p>
+        </details>
+        <details class="faq-item">
+          <summary>What modules does HMS include?</summary>
+          <p>HMS covers patient management, appointments, telemedicine, EMR, doctor workflows, nursing, pharmacy, inventory, laboratory, radiology, billing, emergency, bed management, ICU, OT, and reporting and analytics.</p>
+        </details>
+        <details class="faq-item">
+          <summary>Can HMS be customized for a specific hospital?</summary>
+          <p>Estoniz builds and adapts HMS around the operational workflows of the organization it's implemented for, rather than applying a fixed, one-size-fits-all setup.</p>
+        </details>
+        <details class="faq-item">
+          <summary>How do I book a demo?</summary>
+          <p>Use the demo request form above with your hospital's details, and the Estoniz team will follow up to arrange a walkthrough.</p>
+        </details>
+        <details class="faq-item">
+          <summary>Who develops and supports HMS?</summary>
+          <p>HMS is developed and supported by Estoniz, a software solutions company focused on practical, real-world digital systems.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a href="#top" class="logo"><span class="logo-mark"></span>ESTONIZ HMS</a>
+        <p>Hospital Management System, developed by Estoniz Software Solutions &amp; Technology.</p>
+      </div>
+      <div class="footer-col">
+        <h5>Navigate</h5>
+        <a href="#top">Overview</a>
+        <a href="#modules">Modules</a>
+        <a href="#showcase">Dashboard</a>
+      </div>
+      <div class="footer-col">
+        <h5>Product</h5>
+        <a href="#deployment">Deployment</a>
+        <a href="#demo">Book a Demo</a>
+        <a href="../index.html">Estoniz.com</a>
+      </div>
+      <div class="footer-col">
+        <h5>Legal</h5>
+        <span>Privacy Policy — placeholder</span>
+        <span>Terms — placeholder</span>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Estoniz. All rights reserved.</span>
+      <span>Hospital Management System</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+  const navToggle = document.getElementById('navToggle');
+  const navLinks = document.getElementById('navLinks');
+  navToggle.addEventListener('click', () => navLinks.classList.toggle('open'));
+  navLinks.querySelectorAll('a').forEach(a => a.addEventListener('click', () => navLinks.classList.remove('open')));
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting){
+        entry.target.classList.add('is-visible');
+        observer.unobserve(entry.target);
+      }
+    });
+  }, {threshold:0.12});
+  document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+</script>
+
+</body>
+</html>
